@@ -14,7 +14,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
@@ -29,7 +29,7 @@ header nav {
     justify-content: flex-end;
 }
 
-header nav .nav-right-section{
+header nav .nav-right-section {
     width: 250px;
     height: auto;
     display: flex;
@@ -43,7 +43,7 @@ nav .nav-right-section a {
     color: #000;
 }
 
-nav .nav-right-section .menu-icon{
+nav .nav-right-section .menu-icon {
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,22 +52,44 @@ nav .nav-right-section .menu-icon{
     height: 2.4rem;
 }
 
-nav .nav-right-section img{
+nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 1rem;
 }
 
-main{
+main {
     margin-top: 15rem;
     text-align: center;
 }
 
-main .main-logo{
+main .main-logo {
     width: 52rem;
     margin: 0 auto;
     margin-bottom: 3.6rem;
 }
 
-main .main-logo img{
+main .main-logo img {
     width: 30rem;
+}
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.6rem;
+}
+
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none; /* Quita el borde azul (color depende del navegador) que aparece en el intup*/
 }
